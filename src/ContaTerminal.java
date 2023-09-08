@@ -18,7 +18,7 @@ public class ContaTerminal {
             double contaSaldo = 312.31;
 
             System.out.printf(
-                    "Olá %s, obrigado por criar uma conta em nosso banco, sua agência é a %s, conta Nº %d e seu saldo é de %.2f",
+                    "Olá %s, obrigado por criar uma conta em nosso banco, sua agência é a %s, conta Nº %d e seu saldo de R$%.2f já está disponível para saque.",
                     contaNome, contaAgencia, contaNumero, contaSaldo);
         }
 
